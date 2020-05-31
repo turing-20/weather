@@ -52,9 +52,6 @@ function subF()
         var now = new Date();
         var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
         var curDay = days[ now.getDay() ];
-        // document.getElementById("twitter").innerHTML='<a href='+'"https://twitter.com/intent/tweet?text=Current weather in '+response.data.city.name+' is '+Math.ceil(temp)+'°. For a live weather update visit https://ps-weather.herokuapp.com/"'+
-        // ' target="_blank"><iclass="fa fa-twitter"style="font-size: 48px; color: black;"></i></a>'
-        // console.log(document.getElementById("twitter"));
         var tweet="https://twitter.com/intent/tweet?text=Current weather in "+response.data.city.name+' is '+Math.ceil(temp)+'°. For a live weather update visit https://ps-weather.herokuapp.com/';
         $(".tweet").attr("href",tweet );
 
@@ -69,8 +66,6 @@ function subF()
         '<ul class="faltu" style="padding-left: 1rem;">'+
         '<li>Max: ' +  maxx  + ' &#8451;</li>'+
         '<li>Min: ' +  minn  + ' &#8451;</li>'+
-        '<li>Humidity: ' + humidity+ '%</li>'+
-        '<li>Wind: ' + wind + 'km/h</li>'+
           '</ul>'+
         '</div>'+
         '</div>'+
@@ -120,8 +115,6 @@ function subF()
             '<ul class="faltu" style="padding-left: 1rem;">'+
             '<li>Max: ' +  maxx  + ' &#8451;</li>'+
             '<li>Min: ' +  minn  + ' &#8451;</li>'+
-            '<li>Humidity: ' + humidity+ '%</li>'+
-            '<li>Wind: ' + wind + 'km/h</li>'+
               '</ul>'+
             '</div>'+
             '</div>'+

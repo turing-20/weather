@@ -16,14 +16,10 @@ body
 {
     background-color: pink;
     font-family: 'Roboto', sans-serif;
+    padding: 0.5rem;
 
 }
 
-.brand
-{
-    color: white;
-    padding: 0.5rem !important;
-}
 
 .main-site
 {
@@ -33,26 +29,23 @@ body
     z-index: 0;
     background-color: pink;
 }
-.blur
+/* .blur
 {
     width: 100%;
     filter: blur(10px);
     position: fixed;
     z-index: -1;
-}
+} */
 
-.indd
-{
-    padding-top: 5rem;
-}
 
-.label_black
+
+/* .label_black
 {
     color: wheat;
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
     padding-right: 40px;
-}
+} */
 
 .searchbox
 {
@@ -86,8 +79,8 @@ body
 
 .container
 {
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     background-color: pink;
 }
 
