@@ -52,7 +52,7 @@ function subF()
         var now = new Date();
         var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
         var curDay = days[ now.getDay() ];
-        var tweet="https://twitter.com/intent/tweet?text=Current weather in "+response.data.city.name+' is '+Math.ceil(temp)+'°. For a live weather update visit https://ps-weather.herokuapp.com/';
+        var tweet="https://twitter.com/intent/tweet?text=Current weather in "+response.data.city.name+' is '+Math.ceil(temp)+'°. For a live weather update visit https://turing-20.github.io/weather/';
         $(".tweet").attr("href",tweet );
 
         document.getElementById('java-html0').innerHTML+= '<h3 class="text-center dayy">Current</h3>'+
